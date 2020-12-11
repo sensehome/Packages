@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>sensehome</Authors>
+    <Copyright>sensehome</Copyright>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <Owners>sensehome</Owners>
+    <PackageProjectUrl>https://github.com/sensehome/Packages</PackageProjectUrl>
+    <Summary>SenseHome common types library</Summary>
+    <Title>SenseHome.Common</Title>
+    <Description>SenseHome Common types library</Description>
   </PropertyGroup>
 
 </Project>
