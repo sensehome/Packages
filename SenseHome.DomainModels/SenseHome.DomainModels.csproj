@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>sensehome</Authors>
+    <Copyright>sensehome</Copyright>
+    <Owners>sensehome</Owners>
+    <PackageProjectUrl>https://github.com/sensehome/Packages</PackageProjectUrl>
+    <Summary>SenseHome Domain Database Models</Summary>
+    <Title>SenseHone.DomainModels</Title>
+    <Description>SenseHome Domain Database Models</Description>
   </PropertyGroup>
 
   <ItemGroup>
