@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenseHome.Common", "SenseHo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenseHome.DataTransferObjects", "SenseHome.DataTransferObjects\SenseHome.DataTransferObjects.csproj", "{C4D3B846-2A34-4CAC-B458-B3EF84C1D2BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenseHome.DomainModels", "SenseHome.DomainModels\SenseHome.DomainModels.csproj", "{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{C4D3B846-2A34-4CAC-B458-B3EF84C1D2BB}.Release|x64.Build.0 = Release|Any CPU
 		{C4D3B846-2A34-4CAC-B458-B3EF84C1D2BB}.Release|x86.ActiveCfg = Release|Any CPU
 		{C4D3B846-2A34-4CAC-B458-B3EF84C1D2BB}.Release|x86.Build.0 = Release|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Debug|x64.Build.0 = Debug|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Release|x64.ActiveCfg = Release|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Release|x64.Build.0 = Release|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5D7B43B-9B31-4AD1-B85B-83A5AB2ADC0B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
