@@ -4,11 +4,13 @@ namespace SenseHome.DB.Redis
 {
     public class RedisDBContext
     {
-        public IDatabase Database;
+        public readonly IDatabase Database;
+        public readonly IConnectionMultiplexer Connection;
+
         public RedisDBContext(RedisDBSettings settings)
         {
-            var redis = ConnectionMultiplexer.Connect(settings.GetConnectionString());
-            Database = redis.GetDatabase();
+            Connection = ConnectionMultiplexer.Connect(settings.GetConnectionString());
+            Database = Connection.GetDatabase();
         }
     }
 }

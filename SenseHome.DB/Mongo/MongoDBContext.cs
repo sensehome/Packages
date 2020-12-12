@@ -4,12 +4,13 @@ namespace SenseHome.DB.Mongo
 {
     public class MongoDBContext
     {
-        public IMongoDatabase Database;
-
+        public readonly IMongoClient Client;
+        public readonly IMongoDatabase Database; //default database from settings
+        
         public MongoDBContext(MongoDBSettings settings)
         {
-            IMongoClient client = new MongoClient(settings.Host);
-            Database = client.GetDatabase(settings.Name);
+            Client = new MongoClient(settings.Host);
+            Database = Client.GetDatabase(settings.Name);
         }
     }
 }
