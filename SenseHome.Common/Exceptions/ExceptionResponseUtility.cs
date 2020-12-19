@@ -31,7 +31,7 @@ namespace SenseHome.Common.Exceptions
                     case ForbiddenException forbiddenException:
                         exceptionData.StatusCode = System.Net.HttpStatusCode.Forbidden;
                         exceptionData.Message = forbiddenException.Message;
-                        break
+                        break;
                 }
             }
             return exceptionData;
