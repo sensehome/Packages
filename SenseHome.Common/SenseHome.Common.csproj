@@ -12,4 +12,7 @@
     <Description>SenseHome Common types library</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Values\" />
+  </ItemGroup>
 </Project>

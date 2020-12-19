@@ -28,6 +28,10 @@ namespace SenseHome.Common.Exceptions
                         exceptionData.StatusCode = System.Net.HttpStatusCode.BadRequest;
                         exceptionData.Message = badRequestException.Message;
                         break;
+                    case ForbiddenException forbiddenException:
+                        exceptionData.StatusCode = System.Net.HttpStatusCode.Forbidden;
+                        exceptionData.Message = forbiddenException.Message;
+                        break
                 }
             }
             return exceptionData;
