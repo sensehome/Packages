@@ -9,6 +9,7 @@
     <Summary>SenseHome Domain Database Models</Summary>
     <Title>SenseHone.DomainModels</Title>
     <Description>SenseHome Domain Database Models</Description>
+    <PackageVersion>1.0.3</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
