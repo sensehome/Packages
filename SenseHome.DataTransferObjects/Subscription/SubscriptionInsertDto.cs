@@ -1,8 +1,6 @@
-﻿using SenseHome.DataTransferObjects.Base;
-
-namespace SenseHome.DataTransferObjects.Subscription
+﻿namespace SenseHome.DataTransferObjects.Subscription
 {
-    public class SubscriptionInsertDto : BaseDtoWithLog
+    public class SubscriptionInsertDto
     {
         public string[] Path { set; get; }
         public string UserId { get; set; }

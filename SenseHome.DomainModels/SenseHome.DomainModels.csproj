@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SenseHome.Common" Version="1.0.1" />
+    <PackageReference Include="SenseHome.Common" Version="1.0.2" />
     <PackageReference Include="SenseHome.DB" Version="1.0.2" />
   </ItemGroup>
 </Project>
