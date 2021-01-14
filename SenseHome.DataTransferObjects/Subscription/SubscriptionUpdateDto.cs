@@ -1,12 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using SenseHome.DataTransferObjects.Base;
 
 namespace SenseHome.DataTransferObjects.Subscription
 {
-    public class SubscriptionInsertDto
+    public class SubscriptionUpdateDto : BaseDto
     {
         [Required]
         public string[] Path { set; get; }
-        [Required]
-        public string UserId { get; set; }
     }
 }

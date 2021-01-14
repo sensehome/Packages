@@ -1,5 +1,4 @@
-﻿using System;
-using SenseHome.Common.Enums;
+﻿using SenseHome.Common.Enums;
 using SenseHome.DataTransferObjects.Base;
 
 namespace SenseHome.DataTransferObjects.User
@@ -8,7 +7,7 @@ namespace SenseHome.DataTransferObjects.User
     {
         public string Name { get; set; }
         public UserType Type { get; set; }
+        public string UserTypeDisplayName => Type.GetDisplayName();
         public bool IsActive { get; set; } = true;
-        public DateTime LastConnected { get; set; } = DateTime.MinValue;
     }
 }
