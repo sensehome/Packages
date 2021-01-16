@@ -11,5 +11,7 @@ namespace SenseHome.DataTransferObjects.Profile
         public string DisplayName { get; set; }
         [Required]
         public string Description { get; set; }
+        [Required]
+        public string UserId { get; set; }
     }
 }
